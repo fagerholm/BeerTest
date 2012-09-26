@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0                              http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>no.jaf.beertest</groupId>
+    <artifactId>beertest</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+    <name>Parent Project for BeerTest</name>
+
+<!--    <modules>
+        <module>simple-weather</module>
+        <module>simple-webapp</module>
+    </modules>-->
+
+
+  <modules>
+    <module>beertest-webapp</module>
+  </modules>
+</project>
